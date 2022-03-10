@@ -1,0 +1,37 @@
+[06-Mar-2022 02:55:23 UTC] PHP Warning:  Undefined array key "bounce" in /home4/johnspz2/public_html/wp-content/mu-plugins/sso.php on line 30
+[06-Mar-2022 08:26:23 UTC] PHP Warning:  Undefined array key "bounce" in /home4/johnspz2/public_html/wp-content/mu-plugins/sso.php on line 30
+[07-Mar-2022 02:17:11 UTC] PHP Warning:  Undefined array key "bounce" in /home4/johnspz2/public_html/wp-content/mu-plugins/sso.php on line 30
+[07-Mar-2022 20:55:56 UTC] PHP Warning:  Undefined array key "bounce" in /home4/johnspz2/public_html/wp-content/mu-plugins/sso.php on line 30
+[07-Mar-2022 21:31:39 UTC] PHP Warning:  Attempt to read property "public" on null in /home4/johnspz2/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 544
+[08-Mar-2022 19:05:07 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in /home4/johnspz2/public_html/wp-admin/includes/class-theme-upgrader.php on line 160
+[08-Mar-2022 19:05:08 UTC] PHP Warning:  Undefined array key "type" in /home4/johnspz2/public_html/wp-content/plugins/bluehost-wordpress-plugin/inc/updates.php on line 327
+[08-Mar-2022 19:05:08 UTC] PHP Warning:  Undefined array key "type" in /home4/johnspz2/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/endurance/wp-module-data/src/Listeners/Plugin.php on line 112
+[08-Mar-2022 19:14:45 UTC] PHP Warning:  Undefined array key "height" in /home4/johnspz2/public_html/wp-admin/includes/class-custom-image-header.php on line 1170
+[08-Mar-2022 19:14:45 UTC] PHP Warning:  Undefined array key "width" in /home4/johnspz2/public_html/wp-admin/includes/class-custom-image-header.php on line 1171
+[08-Mar-2022 19:15:14 UTC] PHP Warning:  Undefined array key "height" in /home4/johnspz2/public_html/wp-admin/includes/class-custom-image-header.php on line 1170
+[08-Mar-2022 19:15:14 UTC] PHP Warning:  Undefined array key "width" in /home4/johnspz2/public_html/wp-admin/includes/class-custom-image-header.php on line 1171
+[09-Mar-2022 21:10:25 UTC] PHP Warning:  include(/home4/johnspz2/public_html/wp-content/plugins/wordpress-seo/vendor/composer/../../src/presenters/admin/auto-update-notification-presenter.php): Failed to open stream: No such file or directory in /home4/johnspz2/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/composer/ClassLoader.php on line 571
+[09-Mar-2022 21:10:25 UTC] PHP Warning:  include(): Failed opening '/home4/johnspz2/public_html/wp-content/plugins/wordpress-seo/vendor/composer/../../src/presenters/admin/auto-update-notification-presenter.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/johnspz2/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/composer/ClassLoader.php on line 571
+[09-Mar-2022 21:10:25 UTC] PHP Fatal error:  Uncaught Error: Class "Yoast\WP\SEO\Presenters\Admin\Auto_Update_Notification_Presenter" not found in /home4/johnspz2/public_html/wp-content/plugins/wordpress-seo/src/integrations/watchers/auto-update-watcher.php:192
+Stack trace:
+#0 /home4/johnspz2/public_html/wp-content/plugins/wordpress-seo/src/integrations/watchers/auto-update-watcher.php(147): Yoast\WP\SEO\Integrations\Watchers\Auto_Update_Watcher->notification()
+#1 /home4/johnspz2/public_html/wp-content/plugins/wordpress-seo/src/integrations/watchers/auto-update-watcher.php(166): Yoast\WP\SEO\Integrations\Watchers\Auto_Update_Watcher->maybe_create_notification()
+#2 /home4/johnspz2/public_html/wp-content/plugins/wordpress-seo/src/integrations/watchers/auto-update-watcher.php(101): Yoast\WP\SEO\Integrations\Watchers\Auto_Update_Watcher->maybe_create_notification_if_not_dismissed()
+#3 /home4/johnspz2/public_html/wp-includes/class-wp-hook.php(309): Yoast\WP\SEO\Integrations\Watchers\Auto_Update_Watcher->auto_update_notification_not_if_dismissed('auto_update_plu...')
+#4 /home4/johnspz2/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /home4/johnspz2/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#6 /home4/johnspz2/public_html/wp-includes/option.php(1819): do_action('update_site_opt...', 'auto_update_plu...', Array, Array, 1)
+#7 /home4/johnspz2/public_html/wp-includes/option.php(1353): update_network_option(1, 'auto_update_plu...', Array)
+#8 /home4/johnspz2/public_html/wp-content/plugins/bluehost-wordpress-plugin/inc/updates.php(214): update_site_option('auto_update_plu...', Array)
+#9 /home4/johnspz2/public_html/wp-content/plugins/bluehost-wordpress-plugin/inc/updates.php(252): bh_sync_plugin_update_settings()
+#10 /home4/johnspz2/public_html/wp-includes/class-wp-hook.php(307): bh_deleted_plugin('wordpress-seo/w...', true)
+#11 /home4/johnspz2/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 /home4/johnspz2/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#13 /home4/johnspz2/public_html/wp-admin/includes/plugin.php(986): do_action('deleted_plugin', 'wordpress-seo/w...', true)
+#14 /home4/johnspz2/public_html/wp-admin/includes/ajax-actions.php(4608): delete_plugins(Array)
+#15 /home4/johnspz2/public_html/wp-includes/class-wp-hook.php(307): wp_ajax_delete_plugin('')
+#16 /home4/johnspz2/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#17 /home4/johnspz2/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#18 /home4/johnspz2/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_delete-...')
+#19 {main}
+  thrown in /home4/johnspz2/public_html/wp-content/plugins/wordpress-seo/src/integrations/watchers/auto-update-watcher.php on line 192

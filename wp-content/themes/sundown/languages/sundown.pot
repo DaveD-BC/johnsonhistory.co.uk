@@ -1,0 +1,89 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sundown\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-02 21:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.2; wp-5.6"
+
+#. %1$s is the name of the child theme; %2$s is the name of the parent theme
+#. %1$s is the name of the child theme, %2$s is the name of the parent theme
+#: includes/admin.php:45 includes/options.php:130
+#, php-format
+msgid "%1$s is a child theme of %2$s"
+msgstr ""
+
+#. %1$s is the child theme name; %2$s is the child theme version; %3$s is the parent theme name
+#: includes/admin.php:27
+#, php-format
+msgid "<em>%1$s v%2$s</em> &ndash; a child theme of %3$s"
+msgstr ""
+
+#: includes/options.php:123
+msgid "About Sundown"
+msgstr ""
+
+#. Author of the theme
+msgid "Cryout Creations"
+msgstr ""
+
+#: functions.php:59
+msgid "Do not display again"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.cryoutcreations.eu"
+msgstr ""
+
+#. URI of the theme
+msgid "http://www.cryoutcreations.eu/wordpress-themes/sundown"
+msgstr ""
+
+#: functions.php:58
+msgid ""
+"If you have already reset the options it is safe to dismiss this message."
+msgstr ""
+
+#. %1 is theme name, %2 is next string
+#: functions.php:56
+#, php-format
+msgid ""
+"It appears that you might have already configured %1$s. For best results it "
+"is recommended to %2$s upon child theme activation."
+msgstr ""
+
+#: functions.php:57
+msgid "reset the theme settings"
+msgstr ""
+
+#. Name of the theme
+#: functions.php:42
+msgid "Sundown"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Sundown is a fast, lightweight and fully customizable WordPress theme that "
+"can also regularly brush your hair. It boosts a responsive fullscreen design "
+"while also taking full advantage of the block editor (Gutenberg) and can set "
+"up a warm bath for you after a hard day’s work. Sundown uses the latest (and "
+"valid) HTML and CSS code, is translation and RTL ready, highly SEO optimized "
+"with integrated Schema.org code, supports WooCommerce and will ask you how "
+"you like your eggs in the morning. With over 100 Customizer options, Sundown "
+"will help you create your ideal blog, ecommerce website or business site in "
+"minutes. And if you ask nicely, she might do the dishes as well. But only at "
+"sundown!"
+msgstr ""
+
+#: includes/admin.php:13
+msgid "Sundown Theme"
+msgstr ""
